@@ -3,7 +3,7 @@ import { Excalidraw } from "@excalidraw/excalidraw";
 import { defaultLang, languages } from "@excalidraw/excalidraw";
 import './main.css'
 import { useEffect, useState } from "react";
-import { locale } from '@tauri-apps/api/os';
+import { locale } from '@tauri-apps/plugin-os';
 
 
 function Main() {
