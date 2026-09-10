@@ -10,7 +10,7 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "@excalidraw/excalidraw": "^0.17.6",
+    "@excalidraw/excalidraw": "^0.18.1",
     "@tauri-apps/api": ">=2.0.0-rc.0",
     "@tauri-apps/plugin-cli": "2.0.0-rc.1",
     "@tauri-apps/plugin-fs": "2.0.0-rc.2",
