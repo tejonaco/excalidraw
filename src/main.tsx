@@ -7,7 +7,7 @@ import { useCallback, useEffect, useState } from "react";
 import { locale } from "@tauri-apps/plugin-os";
 import { getMatches } from "@tauri-apps/plugin-cli";
 import { readTextFile } from "@tauri-apps/plugin-fs";
-import { ExcalidrawInitialDataState } from "@excalidraw/excalidraw/types/types";
+import { ExcalidrawInitialDataState } from "@excalidraw/excalidraw/types";
 
 function Main() {
   const [lang, setLang] = useState(defaultLang.code);
